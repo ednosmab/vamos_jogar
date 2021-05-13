@@ -80,9 +80,9 @@ p.texto{
     margin: auto;
     padding: 10%;
     font-family: cursive;
-    font-size: 40px;
-    line-height: 27pt;
-    width: 80%;
+    font-size: 42px;
+    line-height: 30pt;
+    width: 85%;
 }
 p#tentativa{
     background-color: rgba(255, 255, 255, 0.795);
