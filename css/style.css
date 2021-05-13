@@ -44,7 +44,7 @@ input{
     width: 70px;
 }
 .troca, .troca2, .troca3{
-    margin-top: 20px;
+    margin-top: 60px;
     width: 115px;
     height: 45px;
     font-size: 14pt;
@@ -72,7 +72,7 @@ input{
     width: 2100px;
     height: 80px;
     font-family: cursive;
-    font-size: 17pt;
+    font-size: 19pt;
     border-radius: 60px;
 }
 p.texto{
@@ -80,7 +80,7 @@ p.texto{
     margin: auto;
     padding: 15px;
     font-family: cursive;
-    font-size: 17pt;
+    font-size: 19pt;
     line-height: 27pt;
     width: 275px;
 }
@@ -89,7 +89,7 @@ p#tentativa{
     margin: auto;
     padding: 15px;
     font-family: cursive;
-    font-size: 17pt;
+    font-size: 19pt;
     line-height: 27pt;
     border-radius: 100px;
     width: 200px;
