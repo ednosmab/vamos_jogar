@@ -78,9 +78,9 @@ input{
 p.texto{
     background-color: rgba(255, 255, 255, 0.795);
     margin: auto;
-    padding: 5%;
+    padding: 10%;
     font-family: cursive;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 27pt;
     width: 70%;
 }
@@ -90,7 +90,7 @@ p#tentativa{
     padding: 15px;
     font-family: cursive;
     font-size: 19pt;
-    line-height: 30px;
+    line-height: 40px;
     border-radius: 100px;
     width: 200px;
 }
