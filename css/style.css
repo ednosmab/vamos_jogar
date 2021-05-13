@@ -1,0 +1,100 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+}
+div#um, div#dois, div#tres, div#quatro{
+    position: absolute;
+    text-align: center;
+    padding-top: 50px;
+    width: 320px;
+    height: 538px;
+}
+
+div#um{
+    background-color: #fff;
+    background-image: url("../images/capa1.png");
+    background-repeat: no-repeat;
+    background-size: 320px 538px;
+    z-index: 40; /*valor mais alto aparece na primeira camada*/
+}
+div#dois{
+    background-color: #fff;
+    background-image: url("../images/capa2.2.jpg");
+    background-repeat: no-repeat;
+    background-size: 320px 538px;
+    z-index: 30;
+}
+
+div#tres{
+    background-color: #fff;
+    background-image: url("../images/capa3.png");
+    background-repeat: no-repeat;
+    background-size: 320px 538px;
+    z-index: 20;
+}
+div#quatro{
+    background-color: #fff;
+    background-image: url("../images/capa4.2.png");
+    background-repeat: no-repeat;
+    background-size: 320px 538px;
+    z-index: 10;
+}
+
+input{
+    width: 70px;
+}
+.troca, .troca2, .troca3{
+    margin-top: 20px;
+    width: 115px;
+    height: 45px;
+    font-size: 13pt;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 10px;
+}
+.troca{
+    background-color:rgb(209, 115, 197);
+}
+.troca2{
+    background-color:rgb(115, 148, 209);
+}
+.troca3{
+    background-color:rgb(108, 85, 235);
+}
+.corpoTexto{
+    height: 350px;
+}
+#pergunta{
+    background-color: rgba(255, 255, 255, 0.74);
+    margin: auto;
+    margin-top: 210px;
+    padding-top: 50px;
+    width: 210px;
+    height: 80px;
+    font-family: cursive;
+    font-size: 14pt;
+    border-radius: 60px;
+}
+p.texto{
+    background-color: rgba(255, 255, 255, 0.795);
+    margin: auto;
+    padding: 15px;
+    font-family: cursive;
+    font-size: 14pt;
+    line-height: 27pt;
+    width: 275px;
+}
+p#tentativa{
+    background-color: rgba(255, 255, 255, 0.795);
+    margin: auto;
+    padding: 15px;
+    font-family: cursive;
+    font-size: 14pt;
+    line-height: 27pt;
+    border-radius: 100px;
+    width: 200px;
+}
+input{
+    text-align: center;
+    height: 20px;
+}
