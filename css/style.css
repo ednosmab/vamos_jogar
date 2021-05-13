@@ -80,7 +80,7 @@ p.texto{
     margin: auto;
     padding: 10%;
     font-family: cursive;
-    font-size: 42px;
+    font-size: 50px;
     line-height: 30pt;
     width: 85%;
 }
@@ -89,7 +89,7 @@ p#tentativa{
     margin: auto;
     padding: 15px;
     font-family: cursive;
-    font-size: 19pt;
+    font-size: 50px;
     line-height: 40px;
     border-radius: 100px;
     width: 200px;
