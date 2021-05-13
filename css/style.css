@@ -78,11 +78,11 @@ input{
 p.texto{
     background-color: rgba(255, 255, 255, 0.795);
     margin: auto;
-    padding: 10%;
+    padding: 5%;
     font-family: cursive;
     font-size: 30px;
     line-height: 40px;
-    width: 85%;
+    width: 80%;
 }
 p#tentativa{
     background-color: rgba(255, 255, 255, 0.795);
