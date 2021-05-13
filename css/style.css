@@ -14,14 +14,14 @@ div#um{
     background-color: #fff;
     background-image: url("../images/capa1.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100% ;
     z-index: 40; /*valor mais alto aparece na primeira camada*/
 }
 div#dois{
     background-color: #fff;
     background-image: url("../images/capa2.2.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     z-index: 30;
 }
 
@@ -29,14 +29,14 @@ div#tres{
     background-color: #fff;
     background-image: url("../images/capa3.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     z-index: 20;
 }
 div#quatro{
     background-color: #fff;
     background-image: url("../images/capa4.2.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     z-index: 10;
 }
 
@@ -47,7 +47,7 @@ input{
     margin-top: 20px;
     width: 115px;
     height: 45px;
-    font-size: 13pt;
+    font-size: 14pt;
     font-weight: 600;
     color: #fff;
     border-radius: 10px;
@@ -69,10 +69,10 @@ input{
     margin: auto;
     margin-top: 210px;
     padding-top: 50px;
-    width: 210px;
+    width: 2100px;
     height: 80px;
     font-family: cursive;
-    font-size: 14pt;
+    font-size: 17pt;
     border-radius: 60px;
 }
 p.texto{
@@ -80,7 +80,7 @@ p.texto{
     margin: auto;
     padding: 15px;
     font-family: cursive;
-    font-size: 14pt;
+    font-size: 17pt;
     line-height: 27pt;
     width: 275px;
 }
@@ -89,7 +89,7 @@ p#tentativa{
     margin: auto;
     padding: 15px;
     font-family: cursive;
-    font-size: 14pt;
+    font-size: 17pt;
     line-height: 27pt;
     border-radius: 100px;
     width: 200px;
