@@ -7,36 +7,40 @@ div#um, div#dois, div#tres, div#quatro{
     text-align: center;
     padding-top: 50px;
     width: 100%;
-    height: 96%;
+    height: 92%;
 }
 
 div#um{
     background-color: #fff;
     background-image: url("../images/capa1.png");
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100% 96% ;
+    background-size: 100% 100% ;
     z-index: 40; /*valor mais alto aparece na primeira camada*/
 }
 div#dois{
     background-color: #fff;
     background-image: url("../images/capa2.2.jpg");
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100% 96%;
+    background-size: 100% 100%;
     z-index: 30;
 }
 
 div#tres{
     background-color: #fff;
     background-image: url("../images/capa3.png");
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100% 96%;
+    background-size: 100% 100%;
     z-index: 20;
 }
 div#quatro{
     background-color: #fff;
     background-image: url("../images/capa4.2.png");
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100% 96%;
+    background-size: 100% 100%;
     z-index: 10;
 }
 
