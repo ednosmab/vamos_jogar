@@ -10,8 +10,8 @@ function troca(){
     document.getElementById("quatro").style.zIndex = "-100"
 }
 function troca2(){
-    if(fogo.value == "fogo" & protetor.value == "protetor" & coracoes.value == "corações"
-         & eternidade.value == "eternidade"){
+    if(fogo.value.toLowerCase() == "fogo" & protetor.value.toLowerCase() == "protetor" & coracoes.value.toLowerCase() == "corações"
+         & eternidade.value.toLowerCase() == "eternidade"){
         document.getElementById("um").style.zIndex = "-100"
         document.getElementById("dois").style.zIndex = "-100"
         document.getElementById("tres").style.zIndex = "1"
