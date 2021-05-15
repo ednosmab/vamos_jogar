@@ -3,7 +3,7 @@
     padding: 0;
 }
 div#um, div#dois, div#tres, div#quatro{
-    position: absolute; /*descomentar este trecho */
+    position: absolute; /*descomentar este trecho*/
     text-align: center;
     padding-top: 50px;
     width: 100%;
@@ -60,7 +60,7 @@ div#quatro{
     font-size: 14pt;
     font-weight: 600;
     color: #fff;
-    border-radius: 10px;/*tirar esse trecho*/
+    border-radius: 10px;
 }
 .troca{
     background-color:rgb(209, 115, 197);
@@ -108,13 +108,12 @@ p.texto{
 }
 #tQuatro, #tTres{
     margin: auto;
-    width: 20%;
     height: 25%;
-    position: relative;
     
 }
 p#tentativa{
     background-color: rgba(255, 255, 255, 0.795);
+    position: relative;
     margin: auto;
     padding: 15px;
     font-family: cursive;
