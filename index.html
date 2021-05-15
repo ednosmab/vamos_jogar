@@ -9,11 +9,11 @@
     
     <title>Vamos Jogar</title>
 </head>
-<body>
+<body onload="trans()">
     <div id="content">
         <div id="um">
             <div class="corpoTexto">
-                <p class="texto">
+                <p class="texto" id="tUm">
                     Olá minha doce Mariana <br>
                     Nesta última etapa eu preparei uma surpresa<br>
                     Este jogo continua na mesma linha dos
@@ -24,7 +24,7 @@
             <p><button onclick="troca()" class="troca">Próximo</button></p>
         </div>
         <div id="dois">
-            <div class="corpoTexto">
+            <div class="corpoTexto" id="tDois">
                 <p class="texto">
                     Você reacendeu o <input type="text" id="fogo"> 
                     da minha alma, eu decidi ser o seu <input type="text" id="protetor"> 
@@ -35,14 +35,14 @@
             <p><input type="submit" onclick="troca2()" class="troca2" value="Próximo"></p>
         </div>
         <div id="tres">
-            <div class="corpoTexto">
+            <div class="corpoTexto" id="tTres">
                 <p id="pergunta">
                     Me faça a pergunta!
                 </p>
             </div>
         </div>
         <div id="quatro">
-            <div class="corpoTexto">
+            <div class="corpoTexto" id="tQuatro">
                 <p id="tentativa">
                     Não foi dessa vez <br>
                     Tente de novo
