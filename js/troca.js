@@ -22,7 +22,7 @@ function troca2(){
          & eternidade.value.toLowerCase() == "eternidade"){
         let muda = document.getElementById("tTres")
         muda.style.transition = "all 4s"
-        muda.style.transform = "scale(2)"
+        muda.style.transform = "scale(1.5)"
         document.getElementById("um").style.zIndex = "-100"
         document.getElementById("dois").style.zIndex = "-100"
         document.getElementById("tres").style.zIndex = "1"

@@ -3,7 +3,7 @@
     padding: 0;
 }
 div#um, div#dois, div#tres, div#quatro{
-    position: absolute;
+    position: absolute; /*descomentar este trecho */
     text-align: center;
     padding-top: 50px;
     width: 100%;
@@ -44,10 +44,7 @@ div#quatro{
     z-index: 10;
 }
 
-input{
-    width: 70px;
-}
-.troca, .troca2, .troca3{
+.troca, .troca2{
     margin-top: 100px;
     width: 115px;
     height: 45px;
@@ -55,6 +52,15 @@ input{
     font-weight: 600;
     color: #fff;
     border-radius: 10px;
+}
+.troca3{
+    margin-top: 250px;
+    width: 115px;
+    height: 45px;
+    font-size: 14pt;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 10px;/*tirar esse trecho*/
 }
 .troca{
     background-color:rgb(209, 115, 197);
@@ -71,11 +77,9 @@ input{
 #pergunta{
     background-color: rgba(255, 255, 255, 0.74);
     margin: auto;
-    margin-top: 300px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     width: 210px;
-    height: 80px;
     font-family: cursive;
     font-size: 30px;
     border-radius: 60px;
@@ -84,9 +88,6 @@ p.texto{
     background-color: rgba(255, 255, 255, 0.795);
     margin: auto;
     padding: 5%;
-    /* transition: transform 1s;
-    transition-delay: 0.5s; */
-    
     font-family: cursive;
     font-size: 30px;
     line-height: 40px;
@@ -100,8 +101,15 @@ p.texto{
 }
 #tTres{
     transform: scale(0);
+    padding-top: 50px;
 }
 #tQuatro{
+    margin-top: 50px;
+}
+#tQuatro, #tTres{
+    margin: auto;
+    width: 20%;
+    height: 25%;
     position: relative;
     
 }
@@ -116,6 +124,7 @@ p#tentativa{
     width: 200px;
 }
 input{
-    text-align: center;
     height: 20px;
+    width: 70px;
+    text-align: center;
 }
